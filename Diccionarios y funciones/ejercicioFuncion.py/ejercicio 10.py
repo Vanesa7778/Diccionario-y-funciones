@@ -3,9 +3,9 @@
 #utiliza el metodo .strip() para eliminar espacios en blanco
 #utiliza el metodo .split() para dividir la cadena en palabras utilizando espacios
 #utiliza len() para contar la cantidad de palabras en la cadena
-numero_palabras = lambda t: len(t.strip().split())
+numeroPalabras = lambda t: len(t.strip().split())
 #Se llama a la funcion numero_palabras con la cadena "hola, esto es una prueba con lambda".
-print(numero_palabras("hola, esto es una prueba con lambda"))#resultado funcion numero 7(cantidad de palabras)
+print(numeroPalabras("hola, esto es una prueba con lambda"))#resultado funcion numero 7(cantidad de palabras)
 
 #Ejemplo 2 función Lambda
 #se define una funcion anonima (lambda) llamada operadorand que toma dos argumentos, 'x' ,'y'
