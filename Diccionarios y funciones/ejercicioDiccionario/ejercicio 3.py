@@ -1,5 +1,5 @@
 #Tecnicas de iteracion
-calificaciones = {
+calificaciones1 = {
  'nombre': 'Sandra', 
  'notafinal': 5.0
  }
